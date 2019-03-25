@@ -45,8 +45,8 @@ public class GradientDescent{
 
     private static void runGradientDescent() {
         // y = ax + b line
-        float aInitial=1f;
-        float bInitial=2f;
+        float aInitial=0f;
+        float bInitial=0f;
         for (int i=0;i<iterations;i++) {
 
             float aGrad=0f;
